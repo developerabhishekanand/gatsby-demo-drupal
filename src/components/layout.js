@@ -32,7 +32,12 @@ const Layout = ({ children }) => {
           maxWidth: `var(--size-content)`,
           padding: `var(--size-gutter)`,
         }}
-      >
+        >
+        <p>
+        Hello my first site ! i'm very happy today i launched my first site using github. <br>
+          Thank you
+        </br>
+        </p>
         <main>{children}</main>
         <footer
           style={{
